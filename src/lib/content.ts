@@ -17,7 +17,7 @@ export const pageContent = {
       {
         src: "/images/homepage2.jpeg",
         alt: "AeroField em operação — foto 2",
-        objectPosition: "center 30%",
+        objectPosition: "center 50%",
       },
     ],
   },
@@ -31,13 +31,25 @@ export const pageContent = {
       {
         src: "/images/homepage2.jpeg",
         alt: "AeroField em operação — foto 2",
-        objectPosition: "center 30%",
+        objectPosition: "center 50%",
       },
       { src: "/images/imagem1.jpeg", alt: "AeroField em operação — foto 3" },
       { src: "/images/imagem2.jpeg", alt: "AeroField em operação — foto 4" },
-      { src: "/images/imagem3.jpeg", alt: "AeroField em operação — foto 5" },
-      { src: "/images/imagem4.jpeg", alt: "AeroField em operação — foto 6" },
-      { src: "/images/imagem5.jpeg", alt: "AeroField em operação — foto 7" },
+      {
+        src: "/images/imagem3.jpeg",
+        alt: "AeroField em operação — foto 5",
+        objectPosition: "center 25%",
+      },
+      {
+        src: "/images/imagem4.jpeg",
+        alt: "AeroField em operação — foto 6",
+        objectPosition: "center 37%",
+      },
+      {
+        src: "/images/imagem5.jpeg",
+        alt: "AeroField em operação — foto 7",
+        objectPosition: "center 39%",
+      },
     ],
   },
   servicos: {
