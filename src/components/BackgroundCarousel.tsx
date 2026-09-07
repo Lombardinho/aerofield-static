@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { asset } from "@/lib/asset";
 
 export type BackgroundCarouselImage = {
   src: string;
@@ -38,7 +39,7 @@ export function BackgroundCarousel({
       {images.map((image, i) => (
         <Image
           key={image.src}
-          src={image.src}
+          src={asset(image.src)}
           alt={image.alt}
           fill
           priority={priority && (rotating || i === 0)}

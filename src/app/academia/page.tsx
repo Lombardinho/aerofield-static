@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Academia",
@@ -62,7 +63,7 @@ export default function AcademiaPage() {
 
       <section className="relative overflow-hidden px-5 py-24 text-white md:px-8 md:py-28">
         <Image
-          src="/images/academia-hero.jpg"
+          src={asset("/images/academia-hero.jpg")}
           alt=""
           fill
           sizes="100vw"

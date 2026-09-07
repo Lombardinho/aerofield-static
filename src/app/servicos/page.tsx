@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
 import { site } from "@/lib/site";
 import { pageContent } from "@/lib/content";
+import { asset } from "@/lib/asset";
 
 const content = pageContent.servicos;
 
@@ -40,7 +41,7 @@ export default function ServicosPage() {
                 <Reveal className={index % 2 === 1 ? "md:order-2" : undefined}>
                   <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl">
                     <Image
-                      src={service.image}
+                      src={asset(service.image)}
                       alt={service.title}
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"

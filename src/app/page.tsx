@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
 import { site } from "@/lib/site";
 import { pageContent } from "@/lib/content";
+import { asset } from "@/lib/asset";
 
 export default function HomePage() {
   return (
@@ -40,7 +41,7 @@ export default function HomePage() {
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
-                      src={service.image}
+                      src={asset(service.image)}
                       alt={service.title}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
@@ -98,7 +99,7 @@ export default function HomePage() {
           <Reveal>
             <div className="relative aspect-[16/11] overflow-hidden rounded-2xl">
               <Image
-                src="/images/academia-hero.jpg"
+                src={asset("/images/academia-hero.jpg")}
                 alt="Academia AeroField"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

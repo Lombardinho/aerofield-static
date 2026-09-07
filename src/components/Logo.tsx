@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 
 type LogoProps = {
   className?: string;
@@ -7,7 +8,7 @@ type LogoProps = {
 export function Logo({ className = "h-10 w-auto" }: LogoProps) {
   return (
     <Image
-      src="/brand/logo-transparent.png"
+      src={asset("/brand/logo-transparent.png")}
       alt="AeroField Solutions"
       width={1077}
       height={372}

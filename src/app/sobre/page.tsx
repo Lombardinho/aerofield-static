@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
 import { site } from "@/lib/site";
 import { pageContent } from "@/lib/content";
+import { asset } from "@/lib/asset";
 
 const content = pageContent.sobre;
 
@@ -29,7 +30,7 @@ export default function SobrePage() {
           <Reveal>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/images/service-manutencao.jpg"
+                src={asset("/images/service-manutencao.jpg")}
                 alt="Equipe técnica AeroField"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
