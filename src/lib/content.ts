@@ -1,10 +1,19 @@
 // Textos editáveis das páginas "Serviços", "Sobre" e "Contato".
 // Para trocar qualquer texto dessas páginas, edite só este arquivo.
 
+// TODO — dados ainda não decididos, atualizar em src/lib/site.ts quando definidos:
+// - phone / phoneDigits: telefone/WhatsApp real (hoje é placeholder "(00) 00000-0000")
+// - city: região/cidade real (hoje está genérico como "Brasil")
+// - instagram: definir se o link vai ser exibido no site (hoje não aparece em lugar nenhum)
+
 export const pageContent = {
   home: {
     heroImages: [
-      { src: "/images/homepage1.jpeg", alt: "AeroField em operação — foto 1" },
+      {
+        src: "/images/homepage1.jpeg",
+        alt: "AeroField em operação — foto 1",
+        objectPosition: "center 20%",
+      },
       {
         src: "/images/homepage2.jpeg",
         alt: "AeroField em operação — foto 2",
@@ -14,7 +23,11 @@ export const pageContent = {
   },
   shared: {
     fieldImages: [
-      { src: "/images/homepage1.jpeg", alt: "AeroField em operação — foto 1" },
+      {
+        src: "/images/homepage1.jpeg",
+        alt: "AeroField em operação — foto 1",
+        objectPosition: "center 20%",
+      },
       {
         src: "/images/homepage2.jpeg",
         alt: "AeroField em operação — foto 2",
@@ -30,10 +43,10 @@ export const pageContent = {
   servicos: {
     metaTitle: "Serviços",
     metaDescription:
-      "Aplicação defensiva, liberação de Cotesia, mapeamento e manutenção com drones agrícolas — produtividade e sustentabilidade no campo.",
+      "Aplicação agrícola, controle biológico, mapeamento e análise, e manutenção de drones — precisão e eficiência a serviço do campo.",
     heroTitle: "Serviços aeroagrícolas",
     heroSubtitle:
-      "Aplicação defensiva, liberação de Cotesia, mapeamento e manutenção com drones — precisão operacional para produtividade e sustentabilidade.",
+      "Aplicação agrícola, controle biológico, mapeamento e análise, e manutenção de drones — precisão operacional do início ao fim da operação.",
     heroButtonLabel: "Solicitar orçamento",
     serviceButtonLabel: "Solicitar orçamento",
     items: [
@@ -94,7 +107,7 @@ export const pageContent = {
   sobre: {
     metaTitle: "Sobre",
     metaDescription:
-      "Conheça a AeroField Solutions — drones agrícolas para aplicação, mapeamento e manutenção.",
+      "Conheça a AeroField Solutions — drones agrícolas para aplicação, controle biológico, mapeamento e manutenção.",
     heroTitle: "Quem somos",
     heroSubtitle:
       "A AeroField une tecnologia aérea e presença no campo para elevar produtividade com responsabilidade.",
@@ -113,7 +126,7 @@ export const pageContent = {
   contato: {
     metaTitle: "Contato",
     metaDescription:
-      "Solicite um orçamento da AeroField — drones agrícolas para aplicação, mapeamento e manutenção.",
+      "Solicite um orçamento da AeroField — drones agrícolas para aplicação, controle biológico, mapeamento e manutenção.",
     heroTitle: "Vamos conversar",
     heroSubtitle:
       "Conte sobre sua área e necessidade. Retornamos com uma proposta alinhada à sua operação.",
