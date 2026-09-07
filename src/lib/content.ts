@@ -27,7 +27,7 @@ export const pageContent = {
         benefits: [
           "Aplicação uniforme de químicos e biológicos",
           "Menor uso de água e insumos",
-          "Operação possível após chuvas, sem pisoteio",
+          "Operação possível após chuvas, sem pisoteio na cultura",
           "Cobertura eficiente em áreas de difícil acesso",
         ],
       },
@@ -38,10 +38,10 @@ export const pageContent = {
         summary:
           "Distribuição aérea de agentes de controle biológicos com precisão, agilidade e uniformidade em grandes áreas.",
         benefits: [
-          "Controle biológico de pragas sem agroquímicos",
-          "Distribuição uniforme em toda a área",
-          "Redução da pressão de pragas com menos impacto ambiental",
-          "Aplicação rápida mesmo em áreas extensas ou de difícil acesso",
+          "Liberação de Cotesia e Trichogramma",
+          "Distribuição uniforme e georeferenciada",
+          "Alta capacidade operacional em grandes áreas",
+          "Registro e rastreabilidade das operações",
         ],
       },
       {
@@ -51,10 +51,9 @@ export const pageContent = {
         summary:
           "Levantamento aéreo de alta resolução com processamento e análise de imagens para identificar, quantificar e apoiar as decisões no campo.",
         benefits: [
-          "Identificação de falhas e plantas daninhas",
-          "Apoio à tomada de decisão por talhão",
-          "Imagens de alta resolução para diagnóstico",
-          "Base para agricultura de precisão",
+          "Identificação de plantas daninhas e detecção de falhas na lavoura",
+          "Geração de ortomosaicos e mapas georreferenciados",
+          "Informações para aplicações localizadas e tomadas de decisão",
         ],
       },
       {
@@ -64,10 +63,11 @@ export const pageContent = {
         summary:
           "Serviços de manutenção preventiva e corretiva para garantir segurança, confiabilidade e disponibilidade dos equipamentos.",
         benefits: [
-          "Manutenção preventiva e corretiva",
-          "Calibração e preparação operacional",
-          "Mais segurança e continuidade de voo",
-          "Suporte para máxima produtividade da frota",
+          "Diagnóstico e manutenção preventiva e corretiva",
+          "Manutenção corretiva e substituição de componentes",
+          "Inspeção, calibração e testes operacionais",
+          "Suporte técnico para maior disponibilidade do equipamento",
+          "Manutenção especializada em drones agrícolas (DJI)",
         ],
       },
     ],
