@@ -15,7 +15,12 @@ export const metadata: Metadata = {
 export default function ContatoPage() {
   return (
     <>
-      <Hero compact title={content.heroTitle} subtitle={content.heroSubtitle} />
+      <Hero
+        compact
+        title={content.heroTitle}
+        subtitle={content.heroSubtitle}
+        images={pageContent.shared.fieldImages}
+      />
 
       <section className="bg-cream px-5 py-20 md:px-8 md:py-28">
         <div className="mx-auto grid max-w-6xl gap-14 md:grid-cols-[1fr_1.1fr]">

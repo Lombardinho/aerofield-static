@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BackgroundCarousel } from "@/components/BackgroundCarousel";
 import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
 import { site } from "@/lib/site";
@@ -69,14 +70,9 @@ export default function HomePage() {
       </section>
 
       <section className="relative overflow-hidden px-5 py-24 text-white md:px-8 md:py-32">
-        <Image
-          src="/images/hero-drone-field.jpg"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover"
-          aria-hidden
-        />
+        <div className="absolute inset-0" aria-hidden>
+          <BackgroundCarousel images={pageContent.shared.fieldImages} />
+        </div>
         <div className="absolute inset-0 bg-navy-deep/78" />
         <div className="relative mx-auto max-w-6xl md:grid md:grid-cols-[1.1fr_1fr] md:items-end md:gap-16">
           <Reveal>

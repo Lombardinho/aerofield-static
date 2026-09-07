@@ -1,13 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { BackgroundCarousel } from "@/components/BackgroundCarousel";
 import { Logo } from "@/components/Logo";
 
 type HeroImage = {
   src: string;
   alt: string;
+  objectPosition?: string;
 };
 
 type HeroProps = {
@@ -41,17 +41,6 @@ export function Hero({
     images && images.length > 0
       ? images
       : [{ src: imageSrc, alt: imageAlt }];
-  const rotating = backgrounds.length > 1;
-
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    if (!rotating) return;
-    const id = setInterval(() => {
-      setIndex((current) => (current + 1) % backgrounds.length);
-    }, 5000);
-    return () => clearInterval(id);
-  }, [rotating, backgrounds.length]);
 
   return (
     <section
@@ -60,23 +49,7 @@ export function Hero({
       }`}
     >
       <div className="absolute inset-0">
-        {backgrounds.map((background, i) => (
-          <Image
-            key={background.src}
-            src={background.src}
-            alt={background.alt}
-            fill
-            priority={rotating || i === 0}
-            sizes="100vw"
-            className={`object-cover ${
-              rotating
-                ? `transition-opacity duration-1000 ease-in-out ${
-                    i === index ? "opacity-100" : "opacity-0"
-                  }`
-                : "animate-kenburns"
-            }`}
-          />
-        ))}
+        <BackgroundCarousel images={backgrounds} kenburns priority />
         <div className="hero-scrim absolute inset-0" />
       </div>
 
