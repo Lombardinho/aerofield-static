@@ -21,7 +21,7 @@ export const pageContent = {
       {
         slug: "aplicacao",
         title: "Aplicação com Drone",
-        image: "/images/service-aplicacao.jpg",
+        image: "/images/aplicacao-com-drone.jpeg",
         summary:
           "Pulverização aérea com área total ou localizada, com precisão operacional, segurança e eficiência com uso de insumos.",
         benefits: [

@@ -22,7 +22,7 @@ export default function ServicosPage() {
         subtitle={content.heroSubtitle}
         primaryHref="/contato"
         primaryLabel={content.heroButtonLabel}
-        imageSrc="/images/service-aplicacao.jpg"
+        imageSrc="/images/aplicacao-com-drone.jpeg"
         imageAlt="Aplicação com drone agrícola"
       />
 
