@@ -3,9 +3,9 @@ import { pageContent } from "./content";
 export const site = {
   name: "AeroField",
   legalName: "AeroField Solutions",
-  tagline: "Drones agrícolas | Aplicação, mapeamento e manutenção",
+  tagline: "Aplicação agrícola | Controle biológico | Mapeamento e análise | Manutenção",
   description:
-    "Produtividade e sustentabilidade no campo com drones agrícolas: aplicação, mapeamento e manutenção.",
+    "Soluções especializadas para aplicação agrícola, controle biológico, mapeamento e manutenção de drones.",
   city: "Brasil",
   email: "contato@aerofield.com.br",
   phone: "(00) 00000-0000",

@@ -82,11 +82,11 @@ export const pageContent = {
     introEyebrow: "AeroField Solutions",
     introHeading: "Tecnologia de drones a serviço da lavoura.",
     introParagraph1:
-      "Nascemos para aproximar o produtor de soluções aeroagrícolas práticas: aplicação precisa, mapeamento que gera decisão e manutenção que sustenta a operação no dia a dia.",
-    introParagraph2Prefix: "Nosso posicionamento é claro — ",
-    introParagraph2Highlight: "produtividade e sustentabilidade",
+      "A AeroField nasceu para oferecer serviços especializados com drones para o setor agrícola, unindo aplicação, controle biológico, mapeamento com análise de imagens e manutenção técnica.",
+    introParagraph2Prefix: "Nosso trabalho é orientado por ",
+    introParagraph2Highlight: "precisão, segurança e eficiência operacional",
     introParagraph2Suffix:
-      ". Menos desperdício, menos compactação do solo e mais eficiência por hectare, com acompanhamento próximo em cada etapa do serviço.",
+      ". Atuamos com planejamento, acompanhamento técnico e execução responsável para entregar qualidade e confiabilidade em cada operação.",
     pillarsHeading: "Nossos pilares",
     ctaHeading: "Quer conhecer a operação de perto?",
     ctaButtonLabel: "Falar com a AeroField",

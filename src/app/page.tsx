@@ -89,9 +89,9 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 text-lg leading-relaxed text-silver md:mt-0">
-              Com drones, a AeroField reduz compactação, otimiza o uso de
-              insumos e entrega dados para decisões melhores — unindo rendimento
-              operacional e cuidado com o ambiente agrícola.
+              Com operações aéreas de precisão, a AeroField reduz o tráfego
+              sobre a lavoura, otimiza recursos e transforma dados em
+              informações para decisões mais eficientes no campo.
             </p>
           </Reveal>
         </div>
@@ -118,8 +118,9 @@ export default function HomePage() {
               Academia AeroField
             </h2>
             <p className="mt-4 text-muted leading-relaxed">
-              Formação prática em operação, legislação, aplicação e manutenção —
-              para quem quer elevar o padrão técnico no agro com drones.
+              Capacitação prática em operação, segurança, legislação,
+              aplicação agrícola e manutenção de drones para quem busca
+              atuação profissional no setor.
             </p>
             <Link
               href="/academia"
@@ -139,11 +140,11 @@ export default function HomePage() {
         <Reveal>
           <div className="relative mx-auto max-w-2xl">
             <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-              Vamos planejar o próximo voo da sua lavoura?
+              Vamos planejar sua próxima operação?
             </h2>
             <p className="mt-4 text-silver">
-              Fale com a equipe AeroField e solicite um orçamento sem
-              compromisso.
+              Fale com nossa equipe e encontre a solução mais adequada para a
+              sua operação agrícola.
             </p>
             <Link
               href="/contato"
