@@ -20,10 +20,10 @@ export const pageContent = {
     items: [
       {
         slug: "aplicacao",
-        title: "Aplicação Defensiva",
+        title: "Aplicação com Drone",
         image: "/images/service-aplicacao.jpg",
         summary:
-          "Pulverização aérea com precisão em área total ou localizada, com menos deriva e sem compactar o solo.",
+          "Pulverização aérea com área total ou localizada, com precisão operacional, segurança e eficiência com uso de insumos.",
         benefits: [
           "Aplicação uniforme de químicos e biológicos",
           "Menor uso de água e insumos",
@@ -33,10 +33,10 @@ export const pageContent = {
       },
       {
         slug: "cotesia",
-        title: "Liberação de Cotesia",
+        title: "Liberação de Biológicos",
         image: "/images/cotesia.png",
         summary:
-          "Liberação aérea de Cotesia para controle biológico de pragas, com distribuição uniforme e no momento certo da lavoura.",
+          "Distribuição aérea de agentes de controle biológicos com precisão, agilidade e uniformidade em grandes áreas.",
         benefits: [
           "Controle biológico de pragas sem agroquímicos",
           "Distribuição uniforme em toda a área",
@@ -46,10 +46,10 @@ export const pageContent = {
       },
       {
         slug: "mapeamento",
-        title: "Mapeamento",
+        title: "Mapeamento e Análise",
         image: "/images/mapeamento.png",
         summary:
-          "Visão aérea para identificar falhas de plantio, daninhas e oportunidades de manejo com dados reais.",
+          "Levantamento aéreo de alta resolução com processamento e análise de imagens para identificar, quantificar e apoiar as decisões no campo.",
         benefits: [
           "Identificação de falhas e plantas daninhas",
           "Apoio à tomada de decisão por talhão",
@@ -62,7 +62,7 @@ export const pageContent = {
         title: "Manutenção de Drones",
         image: "/images/service-manutencao.jpg",
         summary:
-          "Cuidado técnico com frota e operação para manter disponibilidade, segurança e desempenho no campo.",
+          "Serviços de manutenção preventiva e corretiva para garantir segurança, confiabilidade e disponibilidade dos equipamentos.",
         benefits: [
           "Manutenção preventiva e corretiva",
           "Calibração e preparação operacional",

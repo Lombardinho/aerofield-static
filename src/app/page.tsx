@@ -11,7 +11,7 @@ export default function HomePage() {
       <Hero
         brand
         title="Produtividade e sustentabilidade no campo"
-        subtitle="Drones agrícolas para aplicação, mapeamento e manutenção — tecnologia de precisão a serviço da sua lavoura."
+        subtitle="Soluções com drones para aplicação agrícola, controle biológico, mapeamento e manutenção — tecnologia e precisão a serviço do campo."
         primaryHref="/contato"
         primaryLabel="Solicitar orçamento"
         secondaryHref="/servicos"
