@@ -2,7 +2,6 @@
 // Para trocar qualquer texto dessas páginas, edite só este arquivo.
 
 // TODO — dados ainda não decididos, atualizar em src/lib/site.ts quando definidos:
-// - phone / phoneDigits: telefone/WhatsApp real (hoje é placeholder "(00) 00000-0000")
 // - city: região/cidade real (hoje está genérico como "Brasil")
 // - instagram: definir se o link vai ser exibido no site (hoje não aparece em lugar nenhum)
 

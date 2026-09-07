@@ -8,8 +8,8 @@ export const site = {
     "Soluções especializadas para aplicação agrícola, controle biológico, mapeamento e manutenção de drones.",
   city: "Brasil",
   email: "contato@aerofield.com.br",
-  phone: "(00) 00000-0000",
-  phoneDigits: "5500000000000",
+  phone: "(16) 99788-2533",
+  phoneDigits: "5516997882533",
   whatsappMessage: "Olá! Gostaria de solicitar um orçamento da AeroField.",
   instagram: "https://instagram.com/",
   nav: [
